@@ -1,1 +1,267 @@
+#main
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
 
+div .sky
+{
+  width: 200px;
+	height: 150px;
+  background: linear-gradient(#5b89fc, white);
+}
+
+div .ground
+{
+  width: 200px;
+	height: 50px;
+  background: repeating-linear-gradient(-55deg, #d6f55b 0px, #d6f55b 10px, #5bf598 10px, #5bf598 20px);
+
+}
+
+div #body {
+width: 90px;
+height: 45px;
+border: 1px solid black;
+background: radial-gradient(at 15px 40px, #cfcfcf 15px, #3e403e);
+border-radius: 100px/50px;
+position: absolute;
+top: 97px;
+left: 90px;
+z-index: 2;
+}
+
+
+
+div #head {
+width: 55px;
+height: 27.5px;
+border: 1px solid #787a78;
+background: radial-gradient(at 50px 13px, #cfcfcf 15px, #3e403e);
+border-radius: 100px/50px;
+position: absolute;
+top: 70px;
+left: 62px;
+z-index: 2;
+transform: rotate(166deg);
+}
+
+div #nose {
+width: 7px;
+height: 7px;
+background:  #787a78;
+border-radius: 50px;
+position: absolute;
+top: 86px;
+left: 69px;
+z-index: 3;
+}
+
+div #yes1 {
+width: 11px;
+height: 11px;
+background:  white;
+border-radius: 50px;
+position: absolute;
+top: 77px;
+left: 91px;
+z-index: 3;
+}
+
+div #yes2 {
+width: 7px;
+height: 7px;
+background:  black;
+border-radius: 50px;
+position: absolute;
+top: 80px;
+left: 93px;
+z-index: 4;
+}
+
+
+div #neck {
+  height: 30px;
+  width: 20px;
+  background: #787a78;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  left: 88px;
+  transform: rotate(155deg);
+}
+
+div #ear1 {
+width: 55px;
+height: 15px;
+background: radial-gradient(at 0px 10px, #cfcfcf 15px, #3e403e);
+border-radius: 100px/50px;
+position: absolute;
+top: 49px;
+left: 99px;
+z-index: 1;
+transform: rotate(130deg);
+}
+
+div #ear2 {
+width: 55px;
+height: 15px;
+background: radial-gradient(at 0px 10px, #cfcfcf 15px, #3e403e);
+border-radius: 100px/50px;
+position: absolute;
+top: 63px;
+left: 110px;
+z-index: 1;
+transform: rotate(155deg);
+}
+
+
+div #leg1 {
+  height: 0;
+  width: 10px;
+  border-bottom: 21px solid #787a78;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  z-index: 1;
+  top: 140px;
+  left: 103px;
+  transform: rotate(-170deg);
+}
+
+div #leg2 {
+  height: 0;
+  width: 10px;
+  border-bottom: 21px solid #787a78;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  z-index: 1;
+  top: 133px;
+  left: 166px;
+  transform: rotate(132deg);
+}
+
+div #leg3 {
+  height: 0;
+  width: 10px;
+  border-bottom: 21px solid #787a78;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  z-index: 1;
+  top: 140px;
+  left: 150px;
+  transform: rotate(-185deg);
+}
+
+div #leg4 {
+  height: 0;
+  width: 10px;
+  border-bottom: 21px solid #787a78;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  z-index: 1;
+  top: 140px;
+  left: 121px;
+  transform: rotate(175deg);
+}
+
+
+
+div #ball {
+width: 60px;
+height: 30px;
+background: radial-gradient(at 40% 45%, white 3%, #DB1859 50%);
+border-radius: 100px/50px;
+position: absolute;
+top: 40px;
+left: -25px;
+z-index: 2;
+transform: rotate(80deg);
+overflow: auto;
+
+}
+
+div #triangle {
+width: 0;
+height: 0;
+border-top: 10px solid #DB1859;
+border-right: 10px solid transparent;
+position: absolute;
+top: 85px;
+left: 7px;
+z-index: 1;
+transform: rotate(30deg);
+overflow: auto;
+}
+
+
+div #line{
+width: 100px; 
+height: 200px;
+border-top-left-radius: 200px;
+position: absolute;
+border-top-right-radius: 300px;
+border-top: 4.5px solid #87e050;
+transform: rotate(80deg);
+top: 30px;
+left: -130px;
+z-index: 0;
+overflow: auto;
+}
+
+div #smile{
+width: 10px;
+height: 2px;
+border-top-left-radius: 200px;
+position: absolute;
+border-top-right-radius: 300px;
+border-top: 3px solid #787a78;
+transform: rotate(-199deg);
+top: 94px;
+left: 66px;
+z-index: 3;
+}
+
+div #tale1{
+width: 50px;
+height: 100px;
+border-top-left-radius: 200px;
+position: absolute;
+border-top-right-radius: 300px;
+border-top: 7px solid #787a78;
+transform: rotate(90deg);
+top: 60px;
+left: 105px;
+z-index: 1;
+}
+
+div #tale2{
+width: 30px;
+height: 60px;
+border-top-left-radius: 200px;
+position: absolute;
+border-top-right-radius: 400px;
+border-top: 7px solid #787a78; /
+transform: rotate(-90deg);
+top: 45px;
+left: 182px;
+z-index: 1;
+}
+
+div #tale3 {
+width: 0;
+height: 0;
+border-top: 10px solid #787a78;
+border-right: 10px solid transparent;
+position: absolute;
+top: 60px;
+left: 182px;
+z-index: 1;
+transform: rotate(-40deg);
+overflow: auto;
+}
