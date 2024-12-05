@@ -191,7 +191,7 @@ header #open_menu {
 
 .about_us .info_container {
     background-color: #000;
-    margin: 5rem 0;
+    margin: 10rem 0;
 }
 
 .about_us img {
@@ -211,16 +211,17 @@ header #open_menu {
 }
 
 .about_us li {
-    left: 20px;
+    left: 30px;
     font-size: 80%;
-    left: 10px;
     background-color: #000;
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
 }
 
 .about_us span {
     z-index: 500;
     background-color: #000;
+
+
 }
 
 /*---------------------------------*/
@@ -360,8 +361,7 @@ footer h2 {
         flex-direction: column;
         align-items: center;
         display: flex;
-        margin:30px;
-        padding: 30px;
+      
     }
 
     .full_menu {
