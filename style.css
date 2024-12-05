@@ -355,13 +355,27 @@ footer h2 {
 }
 
 @media only screen and (max-width: 900px) {
+  .belka_filler {
+      width: 600px;
+      height: 47rem;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(images/filler.png);
+      flex: 1 0 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+
+
     .about_us .info_container {
         background-color: #000;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         display: flex;
-      
+
     }
 
     .full_menu {
