@@ -329,7 +329,7 @@ footer h2 {
 /* ----------Разные медиа-----------*/
 /*----------------------------------*/
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 828px) {
     .about_us .info_container {
         background-color: #000;
         display: grid;
@@ -353,7 +353,7 @@ footer h2 {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 828px) {
     .about_us .info_container {
         background-color: #000;
         justify-content: center;
