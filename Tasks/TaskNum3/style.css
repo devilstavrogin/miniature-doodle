@@ -1,0 +1,120 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #E6E6FA;
+}
+
+#quiz-container {
+    max-width: 70%;
+    margin: 40px 10px;
+    padding: 35px;
+    background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: #1A202C;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#question-container {
+    margin-top: 20px;
+}
+
+.question-block {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px dashed #A9A9A9;
+    border-radius: 12px;
+    position: relative;
+    transition: transform 0.5s, box-shadow 0.5s;
+    cursor: pointer;
+}
+
+.question-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.question-block h2 {
+    font-size: 1.4em;
+    color: #333333;
+}
+
+.correct-answer-mark, .incorrect-answer-mark {
+    font-size: 1.8em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #4B0082;
+}
+
+.answer {
+    margin-top: 10px;
+    display: block;
+    padding: 12px 18px;
+    border: 1px solid #808080;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.answer:hover {
+    background-color: #F5F5F5;
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+.correct {
+    border-color: #48BB78;
+}
+
+.incorrect {
+    border-color: #E53E3E;
+}
+
+.shake {
+    animation: shake 0.4s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-8px); }
+    100% { transform: translateX(0); }
+}
+
+.slide-down {
+    transform: translateY(80px);
+    opacity: 0.8;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+#stat-container {
+    margin: 20px 0;
+    background-color: #FFB6C1;
+    color: #2F4F4F;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.question-review {
+    margin: 20px 0;
+    padding: 12px;
+    border: 1px dotted #696969;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.question-review:hover {
+    transform: translateX(10px);
+    box-shadow: 3px 5px 18px rgba(0, 0, 0, 0.25);
+}
