@@ -356,7 +356,7 @@ footer h2 {
 
 @media only screen and (max-width: 900px) {
   .belka_filler {
-      width: 600px;
+      width: 900px;
       height: 47rem;
       background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(images/filler.png);
       flex: 1 0 100%;
@@ -376,6 +376,14 @@ footer h2 {
         align-items: center;
         display: flex;
 
+    }
+
+
+    .about_us li {
+        left: 50px;
+        font-size: 80%;
+        background-color: #000;
+        margin-top: 0.1rem;
     }
 
     .full_menu {
