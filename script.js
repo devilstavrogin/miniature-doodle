@@ -47,7 +47,7 @@ tg.onmouseout = function() {
 };
 
 inst.onmouseover = function() {
-    inst.innerHTML = "strigi_ovcu";
+    inst.innerHTML = "Devilstavrogin";
 };
 
 inst.onmouseout = function() {
@@ -55,7 +55,7 @@ inst.onmouseout = function() {
 };
 
 vk.onmouseover = function() {
-    vk.innerHTML = "@grisharubitel";
+    vk.innerHTML = "@Devilstavrogin";
 };
 
 vk.onmouseout = function() {
