@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drakula's Tomb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="logo.png" alt=" Logo">
+            </div>
+            <nav class="navigation">
+
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <div class="game-frame">
+        <div id="gameInfo">
+            <div class="hearts-container">
+                <img src="img/heart.png" alt="Heart">
+                <img src="img/heart.png" alt="Heart">
+                <img src="img/heart.png" alt="Heart">
+            </div>
+            <h2>Уровень: 1</h2>
+            <div id="progressBarContainer">
+                <div id="timer">30</div>
+                <div id="progressBar">
+
+                </div>
+            </div>
+        </div>
+        <!-- Cюда размещать мини игры -->
+
+        <div id="colorGame"></div>
+        <div id="score">Счет: 0</div>
+        
+        <div id="levelDescriptionModal" class="modal">
+            <div class="modal-content">
+                <h2>Уровень 1</h2>
+                <p>Описание уровня</p>
+                <button id="startLevelButton">Начать игру</button>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    
+    <div id="totalTimer">Общее Оставшееся время: 120s</div>
+
+
+        <div id="leaderboard" style="display: none;">
+            <h2>Рейтинг</h2>
+            <ol id="userList"></ol>
+        </div>
+        <div id="inputContainer" style="display: none;">
+            <input type="text" id="userNameInput" placeholder="Enter your name">
+            <button id="submitButton">Submit</button>
+        </div>
+
+
+        <img src="img/ghost-2.png" alt="Ghost 1" class="ghost ghost-left">
+        <img src="img/ghost-1.png" alt="Ghost 2" class="ghost ghost-right">
+
+    <footer>
+        <p>© 2024 Game. All rights reserved.</p>
+        </footer>
+    <script src="script.js"></script>
+
+    <div id="difficultyModal" class="modal">
+        <div class="modal-content">
+            <h2>Выберите уровень сложности</h2>
+            <button id="normalDifficulty">Нормальный</button>
+            <button id="hardDifficulty">Сложный</button>
+        </div>
+    </div>
+
+
+    <div id="level1DescriptionModal" class="modal">
+        <div class="modal-content">
+            <h2>Уровень 2</h2>
+            <p>Описание уровня 2</p>
+            <button id="startLevelButton1">Начать игру</button>
+        </div>
+    </div>
+    <div id="level2DescriptionModal" class="modal">
+        <div class="modal-content">
+            <h2>Уровень 3</h2>
+            <p>Описание уровня 3</p>
+            <button id="startLevelButton2">Начать игру</button>
+        </div>
+    </div>
+    <div id="level3DescriptionModal" class="modal">
+        <div class="modal-content">
+            <h2>Уровень 4</h2>
+            <p>Описание уровня 4</p>
+            <button id="startLevelButton3">Начать игру</button>
+        </div>
+    </div>
+</body>
+
+</html>
